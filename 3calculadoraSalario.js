@@ -20,7 +20,7 @@
 
 
 
-const { gets, print } = require('./funcoes-auxiliares3');
+const { gets, print } = require('./Funções/funcoes-auxiliares3');
 const valorBrutoSalario = parseFloat(gets());
 const adicionalBeneficios = parseFloat(gets());
 let percentualImposto = 0;

@@ -9,14 +9,16 @@
 //         Saída:
 //             Recuperação
 
+
+const { gets, print } = require('./Funções/funcoes-auxiliares1');
 const media = gets();
 
 if (media < 5) {
-    console.log("REP");
+    print("REP");
 } else if (media >= 5 && media < 7) {
-    console.log("REC");
+    print("REC");
 } else if (media >= 7) {
-    console.log("APR");
+    print("APR");
 }
 
 

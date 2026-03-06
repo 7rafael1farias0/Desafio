@@ -14,7 +14,7 @@
 //             Maior número par: 10
 //             Menor número impar: 1
 
-const { gets, print } = require('./funcoes-auxiliares');
+const { gets, print } = require('./Funções/funcoes-auxiliares2');
 const n = parseInt(gets());
 let maiorPar = null;
 let menorImpar = null;
