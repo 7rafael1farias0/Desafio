@@ -1,5 +1,4 @@
-
-const entradas = [2000, 250];
+const entradas = [5, 3, 98, 66, 10, 100];
 let i = 0;
 
 function gets() {
@@ -11,5 +10,4 @@ function gets() {
 function print(texto) {
     console.log(texto);
 }
-
 module.exports = { gets, print };

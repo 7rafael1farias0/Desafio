@@ -1,5 +1,4 @@
-
-const entradas = [8]; 
+const entradas = [8];
 let i = 0;
 
 function gets() {
@@ -11,5 +10,4 @@ function gets() {
 function print(texto) {
     console.log(texto);
 }
-
 module.exports = { gets, print };

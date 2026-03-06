@@ -20,9 +20,9 @@
 
 
 
-const { gets, print } = require('./Funções/funcoes-auxiliares3');
-const valorBrutoSalario = parseFloat(gets());
-const adicionalBeneficios = parseFloat(gets());
+const { gets, print } = require('./funcoes/funcoes-auxiliares3');
+const valorBrutoSalario = gets();
+const adicionalBeneficios = gets();
 let percentualImposto = 0;
 
 if (valorBrutoSalario <= 1100) {    
